@@ -1,7 +1,11 @@
 .Showcase {
   text-align: center;
   color: white;
-  background-color: #003580;
+
   padding-top: 100px;
   padding-bottom: 100px;
+  background-image: url("../assets/images/showcase_back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -6,9 +6,9 @@ function SearchBox() {
     <div className="Searchbox">
       <form className="Search-form" action="">
         <div>
-          <div>
+          <div className="form-item">
             <FaMapMarkerAlt className="search-icon" />
-            <input type="text" placeholder="Adana, Turkiye" />
+            <input className="text" type="text" placeholder="Adana, Turkiye" />
           </div>
           <small>Destination, property name or address</small>
         </div>

@@ -9,4 +9,37 @@
 .Search-form {
   position: relative;
   display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-family: inherit;
+  border: 0;
+  height: 40px;
+  border-radius: 4px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #083b87;
+}
+.form-item {
+  position: relative;
+}
+.form-item .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.form-item .text {
+  padding-left: 40px;
+}
+.search-icon {
+  color: #083b87;
+}
+.text::placeholder {
+  color: #083b87;
+  opacity: 1;
 }
