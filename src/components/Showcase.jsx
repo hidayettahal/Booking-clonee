@@ -1,6 +1,6 @@
 import React from "react";
 import "./Showcase.css";
-import SearchBox from "./SearchBox";
+import SearchBox from "./Searchbox";
 function Showcase() {
   return (
     <main className="Main">

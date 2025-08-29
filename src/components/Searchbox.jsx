@@ -1,35 +1,54 @@
 import React from "react";
 import "./Searchbox.css";
-import { FaMapMarkerAlt, FaCalendarAlt, FaUserFriends } from "react-icons/fa";
+import { FaMapMarkerAlt, FaCalendarAlt, FaUser, FaCheck } from "react-icons/fa";
 function SearchBox() {
   return (
     <div className="Searchbox">
       <form className="Search-form" action="">
-        <div>
+        <div className="Search-form-item">
           <div className="form-item">
             <FaMapMarkerAlt className="search-icon" />
             <input className="text" type="text" placeholder="Adana, Turkiye" />
           </div>
-          <small>Destination, property name or address</small>
+          <small className="form-description">
+            Destination, property name or address
+          </small>
         </div>
 
-        <div>
-          <div>
+        <div className="Search-form-item">
+          <div className="form-item">
             <FaCalendarAlt className="search-icon" />
-            <input type="date" />
+            <input
+              className="text"
+              type="date"
+              placeholder="Check in - Check out"
+            />
           </div>
           <small>When?</small>
         </div>
 
-        <div>
-          <select>
-            <option value="">123</option>
-          </select>
+        <div className="Search-form-item">
+          <div className="form-item">
+            <FaUser className="search-icon" />
+            <select>
+              <option value="">Guest</option>
+            </select>
+          </div>
         </div>
-        <div>
-          <button type="button">Let's get started</button>
+        <div className="Search-form-item">
+          <button className="button" type="button">
+            Let's get started
+          </button>
+          <div className="for-work">
+            <label className="form-checkbox">
+              Are you travelling for work?
+              <div className="checkbox">
+                <input type="checkbox" />
+                <FaCheck className="icon" />
+              </div>
+            </label>
+          </div>
         </div>
-        <div className="">Are you travelling for work?</div>
       </form>
     </div>
   );
