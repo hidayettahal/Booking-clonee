@@ -35,19 +35,19 @@ function SearchBox() {
             </select>
           </div>
         </div>
+        <div className="for-work">
+          <label className="form-checkbox">
+            Are you travelling for work?
+            <div className="checkbox">
+              <input type="checkbox" />
+              <FaCheck className="icon" />
+            </div>
+          </label>
+        </div>
         <div className="Search-form-item">
           <button className="button" type="button">
             Let's get started
           </button>
-          <div className="for-work">
-            <label className="form-checkbox">
-              Are you travelling for work?
-              <div className="checkbox">
-                <input type="checkbox" />
-                <FaCheck className="icon" />
-              </div>
-            </label>
-          </div>
         </div>
       </form>
     </div>

@@ -1,11 +1,19 @@
 .Showcase {
   text-align: center;
   color: white;
-
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   background-image: url("../assets/images/showcase_back.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.Showcase-subtitle {
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .Showcase {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

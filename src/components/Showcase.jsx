@@ -6,8 +6,10 @@ function Showcase() {
     <main className="Main">
       <section className="Showcase">
         <div className="Container">
-          <h1>More deals than days a year</h1>
-          <h3>From cosy country homes to funky city flats</h3>
+          <h1 className="Showcase-title">More deals than days a year</h1>
+          <h3 className="Showcase-subtitle">
+            From cosy country homes to funky city flats
+          </h3>
           <SearchBox />
         </div>
       </section>

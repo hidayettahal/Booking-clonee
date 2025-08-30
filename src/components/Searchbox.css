@@ -2,9 +2,9 @@
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fbbe00;
-  padding: 40px;
+  padding: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+
   margin-top: 30px;
 }
 
@@ -92,7 +92,6 @@
   background-color: #0b4cac;
 }
 .for-work {
-  margin-top: 10px;
   font-size: 14px;
   display: flex;
   justify-content: center;
@@ -133,4 +132,39 @@ input:checked + .icon {
   height: 15px;
   margin-top: -2px;
   display: none;
+}
+@media (min-width: 768px) {
+  .Search-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .Search-form .Search-form-item {
+    flex-grow: 1;
+  }
+
+  .Search-form .Search-form-item:nth-child(1) {
+    flex-grow: 2;
+  }
+
+  .Search-form .Search-form-item:nth-child(5) {
+    flex-grow: 0;
+  }
+
+  .form-description {
+    display: block;
+  }
+
+  .for-work {
+    width: 100%;
+    order: 2;
+    justify-content: flex-end;
+    padding-right: 1rem;
+  }
+
+  .button {
+    width: auto;
+    height: 100%;
+  }
 }
