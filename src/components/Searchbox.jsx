@@ -24,7 +24,7 @@ function SearchBox() {
               placeholder="Check in - Check out"
             />
           </div>
-          <small>When?</small>
+          <small className="form-description">When?</small>
         </div>
 
         <div className="Search-form-item">
