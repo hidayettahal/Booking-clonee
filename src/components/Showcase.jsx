@@ -11,6 +11,13 @@ function Showcase() {
             From cosy country homes to funky city flats
           </h3>
           <SearchBox />
+          <ul className="Showcase-shortlink">
+            <a href="">Find deals</a>
+            <a href="">Travel guides</a>
+            <a href="">How wasa your stay?</a>
+            <a href="">Holiday rentals</a>
+            <a href="">for Business</a>
+          </ul>
         </div>
       </section>
     </main>
