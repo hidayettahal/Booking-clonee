@@ -1,6 +1,8 @@
 import React from "react";
 import "./Showcase.css";
 import SearchBox from "./Searchbox";
+import appleSvg from "../assets/images/apple.svg";
+import googleSvg from "../assets/images/google.svg";
 function Showcase() {
   return (
     <main className="Main">
@@ -18,6 +20,14 @@ function Showcase() {
             <a href="">Holiday rentals</a>
             <a href="">for Business</a>
           </ul>
+          <div className="Showcase-store">
+            <a href="" className="Showcase-store-link apple">
+              <img src={appleSvg} alt="" />
+            </a>
+            <a href="" className="Showcase-store-link google">
+              <img src={googleSvg} alt="" />
+            </a>
+          </div>
         </div>
       </section>
     </main>
