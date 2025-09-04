@@ -8,14 +8,18 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.Showcase-title {
+  font-size: 3em;
+}
 .Showcase-subtitle {
+  color: rgb(206, 204, 204);
   margin-top: 10px;
 }
 .Showcase-shortlink {
   margin-top: 40px;
 }
 .Showcase-shortlink a {
-  color: inherit;
+  color: rgb(206, 204, 204);
   display: block;
   margin-bottom: 10px;
 }
@@ -52,6 +56,9 @@
   .Showcase {
     padding-top: 80px;
     padding-bottom: 100px;
+  }
+  .Showcase-subtitle {
+    font-size: 1.4em;
   }
   .Showcase-shortlink {
     display: flex;

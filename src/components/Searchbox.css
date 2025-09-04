@@ -135,7 +135,7 @@ input:checked + .icon {
 }
 @media (min-width: 768px) {
   .Searchbox {
-    padding: 50px;
+    padding: 45px;
   }
   .Search-form {
     flex-direction: row;
