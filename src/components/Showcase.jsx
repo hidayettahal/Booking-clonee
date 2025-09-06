@@ -16,7 +16,7 @@ function Showcase() {
           <ul className="Showcase-shortlink">
             <a href="">Find deals</a>
             <a href="">Travel guides</a>
-            <a href="">How wasa your stay?</a>
+            <a href="">How was a your stay?</a>
             <a href="">Holiday rentals</a>
             <a href="">for Business</a>
           </ul>

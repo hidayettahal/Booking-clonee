@@ -20,7 +20,7 @@ function Highlights() {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - sliderRef.current.offsetLeft;
-    const walk = (x - startX) * 2; // hız katsayısı (2 → daha hızlı kaydırma)
+    const walk = (x - startX) * 2;
     sliderRef.current.scrollLeft = scrollLeft - walk;
   };
 
@@ -35,12 +35,138 @@ function Highlights() {
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
         >
-          <div className="Highlights-item">1</div>
-          <div className="Highlights-item">2</div>
-          <div className="Highlights-item">3</div>
-          <div className="Highlights-item">4</div>
-          <div className="Highlights-item">5</div>
-          <div className="Highlights-item">6</div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
+          <div className="Highlights-item">
+            <div className="show">
+              <div className="content">
+                <h4 className="title">Paris</h4>
+                <div className="tag">
+                  <h5 className="tag-title">Top reasons to visit:</h5>
+                  <div className="tag-list">
+                    <a href="" className="tag-list">
+                      museums
+                    </a>
+                    <a href="" className="tag-list">
+                      sigtseeing,
+                    </a>
+                    <a href="" className="tag-list">
+                      culture
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Highlights-item-extra"></div>
+          </div>
         </div>
       </div>
     </section>
