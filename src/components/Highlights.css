@@ -22,7 +22,9 @@
 .Highlights-slider:active {
   cursor: grabbing;
 }
-
+.tag-item {
+  color: white;
+}
 .Highlights-item {
   width: 300px;
   height: 200px;
@@ -86,7 +88,6 @@
   position: relative;
   z-index: 1;
 }
-
 .Highlights-details {
   width: 300px;
   height: 200px;
