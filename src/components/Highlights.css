@@ -2,6 +2,9 @@
   margin-top: 30px;
   margin-bottom: 200px;
   overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
 }
 
 .Highlights-slider {
@@ -86,7 +89,7 @@
 
 .Highlights-details {
   width: 300px;
-  height: 200px; /* Kart yüksekliği ile aynı */
+  height: 200px;
   background: #fff;
   padding: 20px;
   border-radius: 8px;

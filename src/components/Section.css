@@ -1,0 +1,71 @@
+.Section1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Section1 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+}
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Section1-item.active {
+  box-shadow: rgba(189, 211, 250, 0.5) 5px 5px 20px 0px;
+}
+.Section1-item {
+  width: 100%;
+  height: 150px;
+  background-color: transparent;
+  box-shadow: rgba(189, 211, 250, 0.5) 5px 5px 20px 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+.Section1-item.active,
+.Section1-item:hover {
+  -webkit-box-shadow: rgba(8, 59, 135, 0.3) 5px 5px 20px 0px;
+  box-shadow: rgba(8, 59, 135, 0.3) 5px 5px 20px 0px;
+  transform: translateY(-5px); /* Hafif yukarı kalkma efekti */
+  transition: all 0.3s ease;
+}
+
+.Section1-item-title {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #083b87;
+}
+.Section1-item-content a {
+  color: #00aced;
+  text-decoration: underline;
+  font-weight: 700;
+}
+span {
+  color: #00aced;
+}
+a {
+  transition: 0.2s;
+}
+@media (min-width: 768px) {
+  .Section1 .container {
+    flex-direction: row;
+    flex-wrap: wrap; /* taşma olursa alta geçsin */
+    gap: 20px;
+  }
+
+  .Section1-item {
+    height: unset;
+    width: calc(33.3333333333% - 10px);
+    padding: 50px;
+
+    justify-content: flex-start;
+    flex: 1;
+  }
+}
