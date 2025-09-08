@@ -1,4 +1,5 @@
 import "./App.css";
+import Destinations from "./components/Destinations";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <Showcase />
       <Highlights />
       <Section />
+      <Destinations />
     </div>
   );
 }

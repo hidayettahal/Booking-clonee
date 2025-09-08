@@ -98,7 +98,6 @@ function Highlights() {
               </div>
             </div>
 
-            {/* Eğer seçilen şehir buysa hemen yanına açıklama kutusu koy */}
             {selectedCity?.id === city.id && (
               <div className="Highlights-details">
                 <h3>Still planning a trip to {selectedCity.name}?</h3>
