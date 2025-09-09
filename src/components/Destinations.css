@@ -1,9 +1,114 @@
+.Destinations {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
 .container-title {
+  width: 90%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.index-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #083b87;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+.container-destinations {
+  display: flex;
+  flex-wrap: wrap;
+  color: gray;
+  gap: 24px;
+}
+.Destinations-item {
   width: 100%;
-  background-color: red;
+  height: 220px;
+  gap: 10px;
+  display: flex;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  user-select: none;
 }
 .Destinations-item-img {
   width: 40%;
-  height: 220px;
+  height: 100%;
+  flex-shrink: 0;
   background-image: url("https://images.unsplash.com/photo-1698917469886-4164dd3ed038?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.Destinations-item-img:hover {
+  transform: scale(1.05);
+}
+.Destinations-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Destinations-item-content .Destination-title {
+  color: #083b87;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+.subtitle {
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+  margin-right: 5px;
+  opacity: 1;
+}
+.icon-location {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.icon-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 100%;
+  color: #fff;
+  font-size: 0.6rem;
+  background-color: #fbbe00;
+}
+.Destinations-item-content-tags {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0, 6;
+  font-size: 15px;
+  position: relative;
+  margin-top: 15px;
+}
+.Destinations-item-content-tags a {
+  text-decoration: underline;
+  margin-right: 5px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0);
+  transition: border 0.3s;
+  padding: 3px;
+}
+.Destinations-item-content-tags a:hover {
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.4);
+  border-style: solid;
+  border-image: initial;
+  text-decoration: none;
+}
+.icon-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
 }

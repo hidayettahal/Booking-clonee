@@ -11,10 +11,10 @@ function Destinations() {
         <div className="Destinations-item">
           <div className="Destinations-item-img"></div>
           <div className="Destinations-item-content">
-            <h5 className="title">Playa d'en Bossa</h5>
+            <h5 className="Destination-title">Playa d'en Bossa</h5>
             <div className="subtitle">
               <FaLocationDot className="icon-location" />
-              <h6 className="country">Spain</h6>
+              <h6 className="subtitle">Spain</h6>
               <div className="icon-top">TOP</div>
             </div>
             <div className="Destinations-item-content-tags">
