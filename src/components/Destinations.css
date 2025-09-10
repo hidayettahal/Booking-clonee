@@ -191,3 +191,18 @@
 .Destination-item-button:hover {
   background-color: #08bbff;
 }
+
+@media (min-width: 768px) {
+  .container-destinations {
+    gap: 20px;
+    padding: 0 50px;
+  }
+  .Destinations-item {
+    width: calc(50% - 12px);
+  }
+}
+@media (min-width: 1200px) {
+  .Destinations-item {
+    width: calc(33% - 16px);
+  }
+}
