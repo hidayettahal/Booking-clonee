@@ -1,0 +1,10 @@
+.container-cards {
+  background-color: red;
+}
+.cards-logo {
+  background-image: url("../assets/images/reviews.svg");
+  background-repeat: no-repeat;
+
+  width: 200px;
+  height: 300px;
+}

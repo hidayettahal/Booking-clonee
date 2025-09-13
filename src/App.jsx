@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/Card";
 import Destinations from "./components/Destinations";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
@@ -15,6 +16,7 @@ function App() {
       <Highlights />
       <Section />
       <Destinations />
+      <Card />
     </div>
   );
 }
