@@ -1,10 +1,73 @@
 .container-cards {
-  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards {
+  display: flex;
+  column-gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  margin-bottom: 20px;
 }
 .cards-logo {
-  background-image: url("../assets/images/reviews.svg");
-  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #083b87;
+}
+.cards-content {
+  max-width: 250px;
+}
+.item-title {
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #083b87;
+}
+.item-text {
+  font-size: 14px;
+}
+.cards-logo p {
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+}
+.icon-help {
+  font-size: 80px;
+}
 
-  width: 200px;
-  height: 300px;
+.cards-content a {
+  color: #00aced;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.cards:hover {
+  transform: scale(1.05);
+  transform: scale(1.05) translateY(-5px);
+}
+@media (min-width: 1000px) {
+  .cards {
+    width: calc(50% - 12px);
+    gap: 20px;
+    padding: 0 50px;
+  }
 }
