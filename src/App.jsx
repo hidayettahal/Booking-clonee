@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import Destinations from "./components/Destinations";
+import Discover from "./components/Discover";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ function App() {
       <Section />
       <Destinations />
       <Card />
+      <Discover />
     </div>
   );
 }
