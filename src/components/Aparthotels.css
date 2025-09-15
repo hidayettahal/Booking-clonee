@@ -73,3 +73,54 @@
   width: 15px;
   margin-right: 5px;
 }
+.container-btn {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.container-btn :hover {
+  background-color: #1c59b4;
+}
+.button-hotels {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  padding-left: 0;
+  padding-right: 0;
+  height: 55px;
+  background-color: #083b87;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.icon-right-hotels {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 14px;
+  height: 15px;
+  stroke-width: 0;
+}
+.hr {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .container-aparthotels {
+    gap: 20px;
+    padding: 0 50px;
+  }
+  .Aparthotels-item {
+    width: calc(50% - 12px);
+  }
+}
+@media (min-width: 1250px) {
+  .Aparthotels-item {
+    width: calc(25% - 1.125rem);
+  }
+}

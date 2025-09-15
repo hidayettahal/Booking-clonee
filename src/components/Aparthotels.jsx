@@ -85,8 +85,15 @@ function Aparthotels() {
           </div>
         </div>
       </div>
-      <div className="container btn"></div>
-      <div className="container hr"></div>
+      <div className="container-btn">
+        <div className="button-hotels">
+          All aparthotels
+          <FaChevronRight className="icon-right-hotels" />
+        </div>
+      </div>
+      <div className="container hr">
+        <hr />
+      </div>
     </section>
   );
 }
