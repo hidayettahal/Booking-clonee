@@ -1,4 +1,5 @@
 import "./App.css";
+import Aparthotels from "./components/Aparthotels";
 import Card from "./components/Card";
 import Destinations from "./components/Destinations";
 import Discover from "./components/Discover";
@@ -19,6 +20,7 @@ function App() {
       <Destinations />
       <Card />
       <Discover />
+      <Aparthotels />
     </div>
   );
 }
