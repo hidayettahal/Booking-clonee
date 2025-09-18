@@ -6,6 +6,7 @@ import Discover from "./components/Discover";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
+import Reviews from "./components/Reviews";
 import Section from "./components/Section";
 import Showcase from "./components/Showcase";
 
@@ -21,6 +22,7 @@ function App() {
       <Card />
       <Discover />
       <Aparthotels />
+      <Reviews />
     </div>
   );
 }
