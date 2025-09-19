@@ -1,0 +1,94 @@
+.container-header-rev {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-header-rev .subtitle-reviews {
+  color: gray;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 30px auto;
+}
+.container-button-large {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn-active {
+  background-color: rgb(8, 59, 135);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease-in-out;
+  width: 200px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn-active:hover {
+  background-color: rgb(35, 85, 160);
+}
+.btn-rew {
+  background-color: rgb(235, 240, 249);
+  color: rgb(8, 59, 135);
+  width: 200px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.btn-rew:hover {
+  background-color: rgb(8, 59, 135);
+  color: rgb(255, 255, 255);
+}
+.container-Rev-item {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Reviews-item {
+  width: calc(33.3333% - 16px);
+}
+.Reviews-item-title {
+  color: rgb(8, 59, 135);
+}
+.Reviews-item-subtitle {
+  color: gray;
+}
+@media (min-width: 768px) {
+  .container-button-large {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .container-Rev-item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px 30px;
+  }
+
+  .Reviews-item {
+    width: auto;
+    text-align: left;
+  }
+}
