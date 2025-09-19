@@ -4,11 +4,7 @@ function Reviews2() {
   return (
     <section className="Reviews">
       <div className="container-header-rev">
-        <h1 className="index-title">Still deciding where to stay?</h1>
-        <h3 className="subtitle-reviews">
-          We want to make your decision easier! With over 131,150,000 verified
-          guest reviews, we can help you find the perfect place to stay.
-        </h3>
+        <h1 className="index-title">Destinations We Love</h1>
       </div>
       <div className="container-button-large">
         <div className="btn-active">Regions</div>
