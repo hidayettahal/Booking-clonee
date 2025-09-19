@@ -1,0 +1,135 @@
+.Subscribe {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url("../assets/images/alt_back.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-subscribe {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.subtitle-subscribe {
+  opacity: 0.7;
+  font-weight: 400;
+}
+.container-subscribe {
+  width: calc(100% - 10px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.Subscribe-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Subscribe-form-item {
+  display: flex;
+  max-width: 90%;
+}
+.form-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.icon-mail {
+  pointer-events: none;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #083b87;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.text-subscribe {
+  font-family: inherit;
+  border: 0;
+  border-radius: 3px;
+  color: #083b87;
+  min-height: 44px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.button-subscribe {
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 44px;
+  color: white;
+  background-color: #00aced;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.button-subscribe:hover {
+  background-color: #2ebaec;
+}
+.form-chechkbox {
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.form-checkbox .checkbox {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+}
+.checkbox::before {
+  content: "";
+  font-size: 15px;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 2px solid white;
+}
+input:checked + .icon {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .Subscribe {
+    height: 500px;
+  }
+}

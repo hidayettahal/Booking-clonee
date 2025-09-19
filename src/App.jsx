@@ -7,8 +7,10 @@ import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
 import Reviews from "./components/Reviews";
+import Reviews2 from "./components/Reviews2";
 import Section from "./components/Section";
 import Showcase from "./components/Showcase";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Discover />
       <Aparthotels />
       <Reviews />
+      <Subscribe />
+      <Reviews2 />
     </div>
   );
 }
