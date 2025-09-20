@@ -3,6 +3,7 @@ import Aparthotels from "./components/Aparthotels";
 import Card from "./components/Card";
 import Destinations from "./components/Destinations";
 import Discover from "./components/Discover";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
@@ -27,6 +28,7 @@ function App() {
       <Reviews />
       <Subscribe />
       <Reviews2 />
+      <Footer />
     </div>
   );
 }
