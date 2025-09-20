@@ -68,8 +68,13 @@ hr {
   text-decoration: underline;
 }
 @media (min-width: 768px) {
+  .container-Footer-navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .container-bottom {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
@@ -83,8 +88,8 @@ hr {
   }
 
   .bottom-right {
-    width: 300px; /* sağ kolon sabit */
-    flex-shrink: 0; /* küçülmesin */
+    width: 300px;
+    flex-shrink: 0;
   }
 
   .Showcase-store {
@@ -93,10 +98,10 @@ hr {
     margin-bottom: 15px;
   }
 }
-
-/* Daha geniş ekranlarda 4 sütun */
 @media (min-width: 1200px) {
-  .bottom-left {
-    grid-template-columns: repeat(4, minmax(100px, auto));
+  .container-Footer-navigation {
+    min-width: 1090px;
+
+    justify-content: space-between;
   }
 }
