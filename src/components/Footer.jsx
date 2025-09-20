@@ -103,24 +103,26 @@ function Footer() {
             Contant Us
           </a>
         </div>
-      </div>
-      <div className="Showcase-store">
-        <a href="" className="Showcase-store-link apple">
-          <img src={appleSvg} alt="" />
-        </a>
-        <a href="" className="Showcase-store-link google">
-          <img src={googleSvg} alt="" />
-        </a>
-      </div>
-      <div className="container-hr">
-        <hr />
-      </div>
-      <div className="bottom-right-info">
-        <p>
-          Booking.com B.V. is based in Amsterdam in the Netherlands, and is
-          supported internationally by
-          <a href="#">204 offices in 70 countries</a>
-        </p>
+        <div className="bottom-right">
+          <div className="Showcase-store">
+            <a href="" className="Showcase-store-link apple">
+              <img src={appleSvg} alt="" />
+            </a>
+            <a href="" className="Showcase-store-link google">
+              <img src={googleSvg} alt="" />
+            </a>
+          </div>
+          <div className="container-hr">
+            <hr />
+          </div>
+          <div className="bottom-right-info">
+            <p>
+              Booking.com B.V. is based in Amsterdam in the Netherlands, and is
+              supported internationally by
+              <a href="#"> 204 offices in 70 countries</a>
+            </p>
+          </div>
+        </div>
       </div>
       <div className="container-copyright">
         <p>Copyright 1996-2024 Booking.com .All righys reserved</p>

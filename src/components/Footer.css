@@ -52,3 +52,51 @@ hr {
   opacity: 0.8;
   width: calc(50% - 12px);
 }
+.bottom-right-info {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-copyright {
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Footer .bottom-right-info a {
+  opacity: 1;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .container-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .bottom-left {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, auto));
+    gap: 12px 30px;
+  }
+
+  .bottom-right {
+    width: 300px; /* sağ kolon sabit */
+    flex-shrink: 0; /* küçülmesin */
+  }
+
+  .Showcase-store {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Daha geniş ekranlarda 4 sütun */
+@media (min-width: 1200px) {
+  .bottom-left {
+    grid-template-columns: repeat(4, minmax(100px, auto));
+  }
+}
